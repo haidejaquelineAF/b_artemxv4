@@ -1,3 +1,4 @@
+RedirectMatch 404 /\.git
 ##ASI denegarAccederCarpetas
 Options All -Indexes 
 
