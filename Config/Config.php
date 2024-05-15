@@ -1,5 +1,5 @@
 <?php
-    const base_url ="http://localhost/b_artemxv4/";//Almacenar la ruta raíz del proyecto
+    const base_url ="http://localhost/xampp/b_artemexv4";//Almacenar la ruta raíz del proyecto
     const host = "localhost";   //Indicarle que nos vamos a conectar por medio de localhost
     const user = "root";        //Indicarle el usuario
     const pass = "";            //Para la clave
