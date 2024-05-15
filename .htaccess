@@ -10,3 +10,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 ##ASI HaciendoConfiguracionesParaAlmacenarEnVariableURLTodoLoQueContengaDespuesDelArchivo_index.php
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+ErrorDocument 400 /errors/badrequest.html
+ErrorDocument 401 /errors/authreqd.html
+ErrorDocument 403 /errors/forbid.html
+ErrorDocument 404 /errors/notfound.html
+ErrorDocument 500 /errors/serverr.html
